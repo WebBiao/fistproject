@@ -1,0 +1,391 @@
+
+#content{
+    clear:left;
+    margin:0 auto;
+    position: relative;
+    width:990px;
+}
+.janeshop{
+    height: 560px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+#shoplist{
+    float:left;
+    height: 560px;
+    margin:0 11px 0 0;
+    overflow: hidden;
+    width:187px;
+}
+#Imageroll{
+    float: left;
+    height: 320px;
+    margin:0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width:550px;
+}
+#Notice{
+    float: left;
+    height: 321px;
+    overflow: hidden;
+    width:230px;
+}
+.vj{
+    float: right;
+    margin: 10px;
+
+}
+.vj a{
+    color: #666666;
+}
+.vj a:hover{
+    color:#008cd7;
+    text-decoration: none;
+}
+#Brand{
+    float: left;
+    height: 230px;
+    margin:10px 0  0;
+    overflow: hidden;
+    width: 790px;
+}
+/*商品分类*/
+#shoplist{
+    float:left;
+    height: 560px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    width: 187px;
+}
+#shoplist h2{
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+    font-size:12px;
+    text-indent:13px;
+    background-color:#6E6E6E;
+}
+.shopinfo{
+    border:1px solid #6E6E6E;
+    border-style:none solid solid;
+    border-width: 0 1px 1px;
+    height:524px;
+    overflow: hidden;
+    padding: 5px 10px 0;
+    width:165px;
+}
+.shopinfo h3{
+    border-bottom: 1px solid #EEEEEE;
+    height: 24px;
+    line-height: 24px;
+    width: 164px;
+}
+.shopinfo ul{
+    float:left;
+    padding: 0 2px 8px;
+}
+.shopinfo li{
+    color:#AEAEAE;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    width: 79px;
+    overflow: hidden;
+    position: relative;
+}
+.shopinfo li a{
+    color:#444;
+}
+.shopinfo li a:hover{
+    color:#008AD7;
+    text-decoration: none;
+}
+.shopinfo li a .promoted{
+    color:#F9044E;
+}
+.shopinfo li .hot{
+    background:url("../images/hot.gif") no-repeat scroll 0 0 transparent;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    width: 21px;
+}
+#Imageroll{
+    float:left;
+    height: 320px;
+    margin:0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width:550px;
+}
+#Imageroll img{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+#Imageroll div{
+    bottom:0;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+}
+#Imageroll div a{
+    background-color:#444444;
+    color:#fff;
+    display: inline-block;
+    float:left;
+    height:32px;
+    margin-right:1px;
+    overflow: hidden;
+    padding:5px 15px;
+    text-align: center;
+    width:79px;
+}
+#Imageroll div a:hover{
+    text-decoration: none;
+}
+#Imageroll div a em{
+    cursor:pointer;
+    display: block;
+    height:16px;
+    overflow: hidden;
+    width:79px;
+}
+#Imageroll .last{
+    margin:0;
+    width:80px;
+}
+#Imageroll a.chos{
+    background: url("../images/adindex.gif") no-repeat center 39px #37A7D7;
+    color:#fff;
+}
+/*最新动态*/
+#Notice{
+    float:left;
+    height: 321px;
+    overflow: hidden;
+    width:230px;
+}
+#Miaosha{
+    float:left;
+    height: 176px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 230px;
+}
+.JS_css3 img {
+    -webkit-transition:1s all;
+    -moz-transition:1s all;
+    -o-transition:1s all;
+    transition:1s all;
+}
+.JS_css3:hover img {
+    -webkit-transform:rotate(720deg);
+    -moz-transform:rotate(720deg);
+    -o-transform:rotate(720deg);
+    transform:rotate(720deg);
+}
+#NoticeInfo{
+    float: left;
+    border:1px solid #dfdfdf;
+    height: 133px;
+    overflow: hidden;
+    width:228px;
+}
+#NoticeInfo h2{
+    height: 23px;
+    line-height: 23px;
+    border-bottom: 1px solid #dfdfdf;
+    text-indent: 12px;
+}
+#NoticeInfo ul{
+    float:left;
+    padding:6px 2px 0 12px;
+}
+#NoticeInfo li{
+   height: 20px;
+   line-height: 20px;
+   overflow: hidden;
+}
+#NoticeInfo li a{
+    color:#666666;
+}
+#NoticeInfo li a:hover{
+    color:#008cd7;
+    text-decoration: none;
+}
+/* 品牌活动 */
+#jnBrand {
+    float: left;
+    height: 230px;
+    margin: 10px 0 0;
+    overflow: hidden;
+    width: 790px;
+}
+#jnBrandTab {
+    border-bottom: 1px solid #E4E4E4;
+    height: 29px;
+    position: relative;
+    width: 790px;
+    float: left;
+}
+#jnBrandTab h2 {
+    height: 29px;
+    line-height: 29px;
+    left: 0;
+    position: absolute;
+    width: 100px;
+}
+#jnBrandTab ul {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+#jnBrandTab li {
+    float: left;
+    margin: 0 10px 0 0;
+}
+#jnBrandTab li a {
+    background-color: #E4E4E4;
+    color: #000000;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+}
+#jnBrandTab .chos {
+    background: url("../images/chos.gif") no-repeat scroll 50% bottom transparent;
+    padding-bottom: 3px;
+}
+#jnBrandTab .chos a {
+    background-color: #FA5889;
+    color: #FFFFFF;
+    outline: 0 none;
+}
+#jnBrandContent {
+    float: left;
+    height: 188px;
+    overflow: hidden;
+    margin: 8px 5px;
+    width: 790px;
+    position: relative;
+}
+#jnBrandList {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3200px;
+}
+#jnBrandContent li {
+    float: left;
+    height: 188px;
+    overflow: hidden;
+    padding: 0 5px;
+    position: relative;
+    width: 185px;
+}
+#jnBrandContent li img {
+    left: 5px;
+    position: absolute;
+    top: 0;
+}
+#jnBrandContent li span {
+    background-color: #EFEFEF;
+    bottom: 0;
+    color: #666666;
+    display: inline-block;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 183px;
+}
+#jnBrandContent li a {
+    color:#666666;
+}
+#jnBrandContent li a:hover{
+    color: #008CD7;
+    text-decoration: none;
+}
+#footer{
+    margin:0 auto;
+    width: 990px;
+    color:#666666;
+    padding: 18px 0;
+    text-align: center;
+}
+#tooltip{
+    position:absolute;
+    border:1px solid #333;
+    background:#f7f5d1;
+    padding:1px;
+    color:#333;
+    display:none;
+}
+/* imgHover */
+.imageMask{
+    background-color:#ffffff;
+    filter:alpha(opacity=0);
+    opacity: 0;
+    cursor: pointer;
+}
+.imageOver{
+    background:url(../images/zoom.gif) no-repeat 50% 50%;
+    filter:alpha(opacity=60);
+    opacity: 0.6;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    position:fixed;
+    border: 1px solid #999999;
+    right: 0;
+    bottom: 0;
+
+}
+.box_log img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+.box_footer{
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+}
+.box_container img{
+    width: 150px;
+    height: 100px;
+    margin: 0px 25px;
+}
+.box_time{
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    cursor: pointer;
+
+}
+.box_text{
+    float:left;
+    margin: 15px 5px;
+}
+/*详情页*/
+#jnProitem{
+    float: left;
+    width: 312px;
+    height: 560px;
+    display: inline;
+    background-color: #B1B1B1;
+}
+#jnDetails{
+    float: left;
+    display: inline;
+    overflow: hidden;
+    width: 468px;
+    height: 560px;
+    background-color: #00A5FF;
+}
